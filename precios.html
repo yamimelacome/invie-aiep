@@ -19,10 +19,10 @@
             <!-- menu -->
             <ul>
                 <li>
-                    <a href="index.html">&lowast; Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="#guitarras">Guitarras</a>
+                    <a href="index.html#guitarras">Guitarras</a>
                 </li>
                 <li>
                     <a href="precios.html">Precios</a>
@@ -30,45 +30,35 @@
             </ul>
         </nav>
     </header>
-    <section id="portada" class="portada ">
-        <!-- portada -->
+    <section class="tabla">
         <div class="contenedor">
-            <h1 class="titulo">Guitarras inviesibles</h1>
-            <!-- titulo -->
-            <h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3>
-            <!-- resumen -->
-            <button class="button">Conoce mas</button>
-            <!-- boton -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Precio</th>
+                        <th>Descripcion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$1000000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$1000000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                    <tr>
+                        <td>Invie Classic</td>
+                        <td>$1000000</td>
+                        <td>Una guitarra muy pro</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </section>
-    <section id="guitarras" class="guitarras contenedor">
-        <!-- guitarras -->
-        <h2>Nuestra guitarras</h2>
-        <!-- titulo -->
-        <article class="guitarra">
-            <!-- guitarra 1 -->
-            <img class="derecha" src="img/invie-acustica.png" alt="Guitarra Invie Acustica" width="350" />
-            <div class="contenedor-guitarra-a">
-                <h3 class="title-b">Invie Acustica</h3>
-                <ol>
-                    <li>Estilo vintage</li>
-                    <li>Madera pura</li>
-                    <li>Incluye estuche invisible de aluminio</li>
-                </ol>
-            </div>
-        </article>
-        <article class="guitarra">
-            <!-- guitarra 2 -->
-            <img class="izquierda" src="img/invie-classic.png" alt="Guitarra Invie Classic" width="350" />
-            <div class="contenedor-guitarra-b">
-                <h3 class="title-b">Invie Classic</h3>
-                <ol>
-                    <li>Estilo vintage</li>
-                    <li>Liviana</li>
-                    <li>Inicia tu camino como Rockstar</li>
-                </ol>
-            </div>
-        </article>
     </section>
     <footer class="footer">
         <div class="contenedor">
@@ -85,25 +75,25 @@
                     <input type="email" required id="email" name="email" />
                     <div class="sexo">
                         <label for="mujer">
-                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
-              </label>
+                    <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+                  </label>
                         <label for="hombre">
-                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
-              </label>
+                    <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+                  </label>
                     </div>
                     <div class="intereses">
                         <label for="cotizacion">
-                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
-              </label>
+                    <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+                  </label>
                         <label for="reclamos">
-                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
-              </label>
+                    <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+                  </label>
                         <label for="comentarios">
-                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
-              </label>
+                    <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+                  </label>
                         <label for="otros">
-                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
-              </label>
+                    <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+                  </label>
                     </div>
                 </div>
                 <div class="col2">
