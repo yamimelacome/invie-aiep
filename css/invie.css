@@ -248,3 +248,11 @@ td {
  +  input[type="checkbox"] {
  +    zoom: 1.5;
  +  }
+ +  /* Footer */
+ +}
+ +
+ +/* Optimización para el menú en pantallas de max 65s0 px*/
+ +@media screen and (max-width:650px) {
+    .header {
+      text-align: center;
+    }
