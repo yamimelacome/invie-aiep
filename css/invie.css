@@ -56,7 +56,7 @@ body {
 }
 
 .portada {
-    background-image: url('../img/background.png');
+    background-image: url('../img/cho.jpg);
     color: white;
     padding: 20px;
 }
@@ -213,3 +213,17 @@ td {
     border: 1px solid #273b47;
     border-collapse: collapse;
 }
+-@media screen and (max-width:600px) {
+ +@media screen and (max-width: 767px){
+ +  /* Footer */
+ +  .footer .contenedor {
+ +    display: block;
+ +  }
+ +  .contacto {
+ +    margin: 0 auto;
+ +  }
+ +  .formulario {
+ +    display: block;
+ +    margin: 0 auto;
+ +    width: 300px;
+ +  }
