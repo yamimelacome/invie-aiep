@@ -227,3 +227,24 @@ td {
  +    margin: 0 auto;
  +    width: 300px;
  +  }
++  .intereses label {
+ +    display: block;
+ +    font-size: 16px;
+ +  }
+ +  .col1 {
+ +    margin: 0;
+ +  }
+ +  /* Selector de atributo */
+ +  input[type="text"],
+ +  input[type="email"] {
+ +    font-size: 16px;
+ +    padding: 5px;
+ +  }
+ +  textarea {
+ +    width: 100%;
+ +  }
+ +
+ +  input[type="radio"],
+ +  input[type="checkbox"] {
+ +    zoom: 1.5;
+ +  }
